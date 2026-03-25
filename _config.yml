@@ -1,9 +1,13 @@
-theme: just-the-docs
+title: "My Documentation Site"
+description: "A simple documentation website"
 
-title: My Documentation Site
-description: A simple docs site
+remote_theme: just-the-docs/just-the-docs
 
-# Enable navigation
+# Optional: enable search
+plugins:
+  - jekyll-seo-tag
+
+# Configuration for Just the Docs
 just_the_docs:
   navigation:
     collapse: false
